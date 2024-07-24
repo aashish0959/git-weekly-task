@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box1
+{
+    height: auto;
+    width: 100%;
+    border: 1px solid #D9E2E9;
+    padding: 20px;
+}
+.box1:hover{
+    border: 1px solid #007A5C;
+}
+.a1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    
+}
+.a2{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.a1 img{
+    height: 100%;
+    width: 100%;
+    transition-duration: 0.5s;
+}
+.a1:hover img{
+    transform: scale(1.1);
+}
+.fw-bolder:hover{
+    color: #007A5C;
+}
+.but{
+    border: none;
+    color: #007A5C;
+    /* margin-left: 2%; */
+    padding: 10px 20px 10px 0px;
+    background-color: white;
+}
+.but:hover{
+    border-bottom: 3px solid #007A5C;
+}
+
+.container-fluid{
+    height: auto;
+    /* border: 1px solid; */
+}
+.box2 img {
+    height: auto;
+    width: 100%;
+    /* background-color: #F2FBF9; */
+    
+    /* background: url(https://preview.colorlib.com/theme/universityedu/assets/img/gallery/visit1.jpg); */
+}
+.box3{
+    height: auto;
+    width: 100%;
+    /* padding: 4.5vw; */
+    background-color: #F2FBF9;
+    
+    /* background-color: #F2FBF9; */
+    
+    /* background: url(https://preview.colorlib.com/theme/universityedu/assets/img/gallery/visit1.jpg); */
+}
+.box4{
+    height:auto;
+    width: 100%;
+    /* padding: 40px; */
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    padding-bottom:60px;
+    align-items: center;
+    color: #32404D;
+    flex-direction: column;
+    
+    /* background: url(https://preview.colorlib.com/theme/universityedu/assets/img/gallery/visit1.jpg); */
+}
+/* .box2 img{
+    height: 100%;
+    width: 100%;
+} */
+.a3{
+    height: auto;
+    width: 80%;
+    border: 1px solid #D9E2E9;
+    margin-top: 20px;
+    display: flex;
+    
+}
+.a4{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.a6{
+    height: auto;
+    width: 20%;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#icon1{
+    /* border: 1px solid; */
+    border-radius: 50px;
+    /* padding: 20px 20px 10px 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: vw;
+}
+.a5{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid; */
+    margin-top: 20px;
+}
+.a7{
+    height: 70px;
+    width: 70px;
+    border: 1px solid #007A5C;
+    color: #007A5C;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+}
+.a7:hover{
+    background-color: #007A5C;
+    color: white;
+    border: 2px solid white;
+}
+.a3:hover{
+    background-color: #DFF1EC;
+    border: none;
+  
+
+}
+#h4{
+    margin-left: 5%;
+    font-weight: bold;
+}
+#h4:hover{
+    color: #007A5C;
+}
+
+
+.box5
+{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.b1{
+    height: auto;
+    width: 30%;
+    /* border: 1px solid; */
+}
+.b2{
+    height: auto;
+    width: 30%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #007A5C;
+    /* border-bottom: 2px solid #007a5c; */
+}
+.box6{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid; */
+    background-image: url(https://preview.colorlib.com/theme/universityedu/assets/img/gallery/class-img1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+.box7{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid; */
+    padding-top: 30px;
+}
+.box8{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid; */
+    background-image: url(https://preview.colorlib.com/theme/universityedu/assets/img/gallery/class-img2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+.box9{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid; */
+    background-image: url(https://preview.colorlib.com/theme/universityedu/assets/img/gallery/class-img3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+.fs-4 {
+    font-weight: 600;
+    color:  #5D646A;
+}
+.fs-4:hover{
+    color: #007A5C;
+} 
+
+
+.carousel-inner{
+    display: flex;
+} 
+#col1{
+     /* border: 1px solid; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+
+
+
+
+
+.navbar .navbar-nav .nav-link {
+    color: black;
+  }
+  .sm-icons {
+    flex-direction: row;
+  }
+  .sm-icons .nav-link {
+    padding-right: 1em;
+  }
+/* #a1{
+    color: black;
+} */
+/* .container-fluid{
+    border: 1px solid black;
+}
+.rwo
+{
+    border: 2px solid black;
+}
+.col{
+    border: 1px solid green;
+} */
+#k11{
+    background-image:url(IMG/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+#k12{
+    height: 20%;
+    width: 30%;
+}
+#k13{
+    height: 70%;
+}
+/* .container{
+    border: 2px solid brown;
+} */
+#k2{
+    background-color: #fcf2eb;
+}
+#k3{
+    background-color: #007a5c;
+}
+#k4{
+    background-color: #fcf2eb;
+}
+#k5{
+    height: 100%;
+    width: 100%;
+}
+#k6{
+    background-color: #32404d;
+}
+
+
+
+
+
+
+
+

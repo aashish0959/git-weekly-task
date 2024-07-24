@@ -1,0 +1,116 @@
+.col-12{
+    /* border: 1px solid; */
+}
+#h1{
+    color: #4D4D4D;
+
+}
+.box1{
+    height: 20px;
+}
+.s1{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.box2{
+    /* height: 50px; */
+    /* border: 1px solid; */
+    display: flex;
+
+}
+.a1{
+    height: 60px;
+    width: 15%;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+.a1 img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.a2{
+    /* border: 1px solid; */
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3{
+   
+    /* border: 1px solid; */
+    display: flex;
+}
+.a3{
+    
+    width: 30%;
+    
+}
+.a4{
+    /* border: 1px solid; */
+    margin-left: 5%;
+    display: flex;
+    align-items: ;
+    justify-content:center ;
+    flex-direction: column;
+}
+.a4 h3{
+    color: #3CA59D;
+
+}
+.a4 p{
+    color: #7F7F7F;
+}
+.c1{
+   
+    border-radius: 0%;
+
+}
+#img1{
+    border-radius: 50%;
+    width: 50%;
+}
+.col-lg-4{
+    /* border: 1px solid; */
+}
+.s2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    height: 50vh;
+    background: url(img/hero_bg_1.jpg);
+    position: sticky;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+#img2{
+   height: 100%;
+   width: 100%; 
+    
+}
+#input1{
+    height: 40px;
+    width: 60%;
+    margin-top: 20px;
+}
+::placeholder{
+    color: black;
+}
+.s6{
+    background-color: #333333;
+    color: white;
+}

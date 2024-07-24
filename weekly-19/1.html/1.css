@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    /* border: 1px solid; */
+    width: 85%;
+    background-color: aquamarine;
+
+}
+header{
+    display: flex;
+    background-color: aquamarine;
+}

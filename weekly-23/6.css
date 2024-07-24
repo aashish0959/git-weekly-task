@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.off {
+    height: 0vh;
+    width: 0%;
+    background: url('https://preview.colorlib.com/theme/erase/images/bg_3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 100;
+    position: fixed;
+    transition: height .3s linear;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.off h1{
+    font-family: serif;
+    color: white;
+    font-size: 75px;
+    font-weight: 900;
+}
+.off a{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+.off .sel{
+    color: #f3b014;
+}
+.fa-xmark {
+    cursor: pointer;
+    right: 20px;
+    top: 20px;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    visibility: hidden;
+}
+
+.on-xmark {
+    visibility: visible;
+}
+
+.on {
+    height: 100vh;
+    width: 100%;
+    visibility: visible;
+}
+
+.hero {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #5bd523, #a0d523, #c9d523, #d5ab23, #d52323, #b85151, #5f5f5f);
+    background-size: 1500% 100%;
+    animation: gradient 22s ease infinite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    height: 104px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+
+nav h6 {
+    color: white;
+    letter-spacing: 10px;
+}
+
+.bar {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+}
+
+.bar:after,
+.bar:before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+
+.bar:after {
+    top: 7px;
+}
+
+.bar:before {
+    bottom: 7px;
+}
+
+.bars {
+    height: 20px;
+}
+
+.bars:hover {
+    cursor: pointer;
+}
+
+.bars:hover .bar::after {
+    top: 10px;
+}
+
+.bars:hover .bar::before {
+    bottom: 10px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.content h6 {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 15px;
+    font-weight: 700;
+}
+
+.content p {
+    font-size: 20vw;
+    color: transparent;
+    background: url(https://preview.colorlib.com/theme/erase/images/bg_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-clip: text;
+    font-family: serif;
+    font-weight: 900;
+    line-height: 17vw;
+}
+
+.content h6:last-child {
+    text-align: right;
+}
+
+.row {
+    height: fit-content;
+}
+
+.img {
+    height: 100vh;
+    background: url('https://preview.colorlib.com/theme/erase/images/image_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.portfolio_details {
+    align-items: center;
+    display: flex;
+}
+
+.portfolio {
+    width: 100%;
+    height: fit-content;
+    padding-left: 35px;
+}
+
+.user {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+}
+
+.portfolio_image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: url("https://preview.colorlib.com/theme/erase/images/person_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
+}
+
+.name {
+    height: 50px;
+    width: fit-content;
+    margin-left: 15px;
+}
+
+.name h4 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #00000070;
+}
+
+.name span {
+    letter-spacing: 4px;
+    font-weight: 400;
+    line-height: 21.6px;
+    font-size: 12px;
+    color: #00000050;
+}
+
+.portfolio h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    margin-top: 50px;
+}
+
+.portfolio p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #00000050;
+    line-height: 32.4px;
+}
+
+.img_2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_2 img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}

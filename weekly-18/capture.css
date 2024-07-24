@@ -1,0 +1,111 @@
+header{
+    height: 730px;
+    width: 25%;
+    position: fixed;
+    background-color: rgb(240, 125, 163);
+}
+.a{
+    height: 200px;
+    width: 60%;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+.b{
+    text-align: center;
+    font-size: 35px;
+    margin-top: -3px;
+}
+nav{
+    height: ;
+    text-align: center;
+    margin-top: 50px;
+}
+nav a{
+    text-decoration: none;
+    line-height: 35px;
+    color: rgb(203, 193, 193);
+}
+.c{
+    margin: 80px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 130px;
+}
+.d1{
+    height: 1420px;
+    border: 2px solid;
+    width: 75%;
+    /* margin-top: -730px; */
+    margin-left: 25%;
+}
+div{
+    height: 350px;
+    width: 33%;
+    background-color: black;
+    display: inline-block;
+}
+img{
+    height: 350px;
+    width: 100%;
+}
+footer{
+    height: 600px;
+    width: 75%;
+    background-color: rgb(38, 33, 33);
+    margin-left: 25%;
+    position: absolute;
+}
+.f1{
+    color: aliceblue;
+    margin-left: 120px;
+    margin-top: 70px;
+}
+.f2{
+    color: aliceblue;
+    margin-left: 440px;
+    margin-top: 70px;
+    margin-top: -310px;
+}
+.f3{
+    color: aliceblue;
+    margin-left: 760px;
+    margin-top: -370px;
+}
+.f31{
+    color: grey;
+    margin-left: 780px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+.f32{
+    color: rgb(245, 242, 242);
+    margin-left: 790px;
+    margin-top: -20px;   
+}
+.f33{
+    color: rgb(245, 242, 242);
+    margin-left: 790px;
+    margin-top: -24px;
+    font-weight: lighter;
+}
+.z{
+    color: grey;
+    font-size: 20px;
+    margin-left: 140px;
+}
+.h{
+    height: 50px;
+    /* margin-top: -50px; */
+    text-align: center;
+    margin-left: 90px;
+    color: black;
+    margin-top: 65px;
+}
+.i{
+    height: 50px;
+    /* margin-top: -50px; */
+    margin-left: 10px;
+    
+}

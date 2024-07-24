@@ -1,0 +1,836 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 120px;
+    width: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    position: sticky;
+    background-color: rgba(127, 255, 212, 0.356);
+
+
+}
+ header .container{
+    height: inherit;
+    width: 80%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+ }
+header .container .logo{
+    height: inherit;
+    width: 20%;
+    border: 1px solid transparent ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .container .logo h1{
+ font-size: 40px; 
+ font-style: italic;
+}
+header .container nav{
+    height: inherit;
+    width: 70%;
+    border: 1px solid transparent ;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(136, 136, 136);
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* section-1 */
+.first{
+    height: 110vh;
+    width: 100%;
+    border: 1px solid transparent;
+    /* position: relative; */
+}
+.first .one{
+    height: 100%;
+    width: 50%;
+    border: 1px solid transparent;
+    float: left;
+    background-color: rgb(212,234,245);
+}
+.first .two{
+    height: 100%;
+    width: 50%;
+    border: 1px solid transparent ;
+    float: right;
+    background-image: url(img/section-1.jpg);
+    background-size: cover;
+}
+.first .one .info {
+    height: 600px;
+    width: 70%;
+    border: 1px solid transparent ;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.first .one .info h2{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 90px;
+}
+.first .one .info h1{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(5,44,67);
+}
+.first .one .info p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    opacity: 0.6;
+}
+.first .one .info button{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 30px;
+    padding: 15px;
+    border: none;
+    color: rgb(101,122,164);
+    margin-left: 20px;
+    box-shadow: 5px 15px 15px 2px rgba(128, 128, 128, 0.26);
+}
+.first .one .info button:hover{
+    box-shadow: none;
+    font-size: 16px;
+}
+
+
+/* section-2 */
+.second{
+    height: 51vh;
+    width: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.second .one{
+    height: 97%;
+    width: 24%;
+    border: 1px solid transparent;
+    background-color: rgb(245,235,235);
+    border-radius: 20px;
+  
+}
+.second .one .icon{
+    height: 70px ;
+    width: 70px;
+    border: 1px solid transparent;
+     margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 50%;
+    background-color: rgb(205, 179, 179);
+}
+.second .one .icon i{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+.second .one .info{
+    height: 200px;
+    width: 80%;
+    border: 1px solid transparent ;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.second .one .info h1{
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(5,44,67);
+}
+.second .one .info p{
+    font-size: 20px;
+    opacity: 0.7;
+    color: rgb(5,44,67);
+    margin-top: 10px;
+}
+.second .two{
+    height: 97%;
+    width: 24%;
+    border: 1px solid transparent;
+    background-color: rgb(220,235,221);
+    border-radius: 20px;
+}
+.second .two .icon{
+    height: 70px ;
+    width: 70px;
+    border: 1px solid transparent;
+     margin-top: 20px;
+    margin-left: 25px;
+      border-radius: 50%;
+      background-color: rgb(139,189,142);
+}
+.second .two .icon i{
+    /* font-size: 30px; */
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+}
+.second .two .info{
+    height: 200px;
+    width: 80%;
+    border: 1px solid transparent;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.second .two .info h1{
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(5,44,67);
+}
+.second .two .info p{
+    font-size: 20px;
+    opacity: 0.7;
+    color: rgb(5,44,67);
+    margin-top: 10px;
+}
+.second .three{
+    height: 97%;
+    width: 24%;
+    border: 1px solid transparent;
+    background-color: rgb(245,239,216);
+    border-radius: 20px;
+}
+.second .three .icon{
+    height: 70px ;
+    width: 70px;
+    border: 1px solid transparent ;
+     margin-top: 20px;
+    margin-left: 25px;
+      border-radius: 50%;
+      background-color: rgb(209,181,74);
+}
+.second .three .icon i{
+    /* font-size: 30px; */
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+}
+.second .three .info{
+    height: 200px;
+    width: 80%;
+    border: 1px solid transparent ;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.second .three .info h1{
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(5,44,67);
+}
+.second .three .info p{
+    font-size: 20px;
+    opacity: 0.7;
+    color: rgb(5,44,67);
+    margin-top: 10px;
+}
+.second .four{
+    height: 97%;
+    width: 24%;
+    border: 1px solid transparent;
+    background-color: rgb(244,230,216);
+    border-radius: 20px;
+}
+.second .four .icon{
+    height: 70px ;
+    width: 70px;
+    border: 1px solid transparent;
+    margin-top: 20px;
+    margin-left: 25px;
+      border-radius: 50%;
+      background-color: rgb(210,154,97);
+}
+.second .four .icon i{
+    /* font-size: 30px; */
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+}
+.second .four .info{
+    height: 200px;
+    width: 80%;
+    border: 1px solid transparent;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.second .four .info h1{
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(5,44,67);
+}
+.second .four .info p{
+    font-size: 20px;
+    opacity: 0.7;
+    color: rgb(5,44,67);
+    margin-top: 10px;
+}
+
+/* section-3 */
+.third{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/section-3.jpg);
+    background-size: cover;
+}
+.third .info{
+    height: 60%;
+    width: 50%;
+    border: 1px solid transparent ;
+    float: right;
+    margin-top: 200px;
+    margin-right: 50px;
+}
+.third .info h3{
+    color:grey;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.third .info h1{
+    color: rgb(5,44,67);
+    font-size: 45px;
+    margin-top: 10px;
+}
+.third .info p{
+    color: grey;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.third .info button{
+    font-size: 20px;
+    background-color: orangered;
+    border-radius: 50%;
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    border: none;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.third .info button:hover{
+    background-color: rgb(255, 123, 75);
+}
+/* section-4 */
+.four{
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+}
+.four h3{
+    font-size: 25px;
+    color: grey;
+    margin-top: 30px;
+}
+.four h2{
+    color: rgb(5,44,67);
+    font-size: 40px;
+}
+
+/* section-5 */
+.five{
+    height: 70vh;
+    width: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.five .img{
+    height: 100%;
+    width: 29%;
+    border: 1px solid transparent;
+    background-image: url(img/section-5-1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.five .img h1{
+    bottom: -90px;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    opacity: 0;   
+}
+.five .img::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.494);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.five .img:hover::before{
+    opacity: 1;
+    transition: 0.5s;
+}
+.five .img:hover h1{
+    opacity: 1;
+    bottom: 0;
+}
+
+.five .img1{
+    height: 100%;
+    width: 29%;
+    border: 1px solid transparent;
+    background-image: url(img/image_1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.five .img1 h1{
+    bottom: -90px;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    opacity: 0;   
+}
+.five .img1::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.494);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.five .img1:hover::before{
+    opacity: 1;
+    transition: 0.5s;
+}
+.five .img1:hover h1{
+    opacity: 1;
+    bottom: 0;
+}
+.five .img2{
+    height: 100%;
+    width: 40%;
+    border: 1px solid transparent ;
+    background-image: url(img/section-5-3.jpg);
+    background-size: cover;
+    position: relative;
+}
+.five .img2 h1{
+    bottom: -90px;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    opacity: 0;   
+}
+.five .img2::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.494);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.five .img2:hover::before{
+    opacity: 1;
+    transition: 0.5s;
+}
+.five .img2:hover h1{
+    opacity: 1;
+    bottom: 0;
+}
+
+/* section-6 */
+.six{
+    height: 70vh;
+    width: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.six .img{
+    height: 100%;
+    width: 40%;
+    border: 1px solid transparent;
+    position: relative;
+    background-image: url(img/section-6-1.jpg);
+    background-size: cover;
+}
+.six .img h1{
+    bottom: -30px;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    opacity: 0;
+}
+.six .img::before{
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.494);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* z-index: 1; */
+    opacity: 0;
+}
+.six .img:hover::before{
+ opacity: 1;
+ transition: 0.5s;
+}
+.six .img:hover h1{
+    opacity: 1;
+    bottom: 0;
+}
+
+
+.six .img1{
+    height: 100%;
+    width: 29%;
+    border: 1px solid transparent ;
+    background-image: url(img/section-6-2.jpg);
+    background-size: cover;
+    position: relative;
+}
+.six .img1 h1{
+    bottom: -30px;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    opacity: 0;
+}
+.six .img1::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.494);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.six .img1:hover::before{
+    opacity: 1;
+    transition: 0.5s;
+}
+.six .img1:hover h1{
+    opacity: 1;
+    bottom: 0;
+}
+
+
+.six .img2{
+    height: 100%;
+    width: 29%;
+    border: 1px solid transparent ;
+    background-image: url(img/section-6-3.jpg);
+    background-size: cover;
+    position: relative;
+}
+.six .img2 h1{
+    bottom: -30px;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    opacity: 0;
+}
+.six .img2::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.494);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.six .img2:hover::before{
+    opacity: 1;
+    transition: 0.5s;
+}
+.six .img2:hover h1{
+    opacity: 1;
+    bottom: 0;
+}
+
+/* section-7 */
+.seven{
+    height: 50vh;
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: rgb(212,234,245) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.seven h3{
+    color: grey;
+    text-align: center;
+    margin-top: 50px;
+    flex-basis: 100%;
+}
+.seven h2{
+    text-align: center;
+    font-size:40px ;
+    flex-basis: 100%;
+    text-decoration: underline;
+}
+.seven .contain{
+    border: 1px solid transparent;
+    height: 150px ;
+    width:20% ;
+    box-shadow: 1px 1px 10px 1px gray;
+    border-radius: 30px ;
+}
+.seven .contain:hover{
+ transform: scale(1.1);  
+ transition: 1s; 
+}
+.seven .contain h1{
+    margin-top: 25px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.574);
+}
+.seven .contain h2{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* section-8 */
+
+.eight{
+    height: inherit;
+    width: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.eight .info{
+    height: 60px ;
+    width: 100%;
+    border: 1px solid transparent ;
+    flex-basis: 100%;
+}
+.eight .info h3{
+    color: gray;
+    text-align: center;
+}
+.eight .info h1{
+    color:rgb(5,44,67);
+    font-size: 30px;
+    text-align: center;
+}
+.eight .blog{
+    height: inherit;
+    width: 90%;
+    border: 1px solid transparent ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.eight .blog .img{
+    height: 300px;
+    width: 25%;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+.eight .blog .img .img1{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/image_1.jpg);
+    background-size:80%;
+    /* background-repeat: no-repeat; */
+}
+.eight .blog .img .img1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.eight .blog .img .info{
+    height: 100%;
+    width: 100%;
+}
+.eight .blog .img .info h3{
+    color: rgb(5,44,67);
+    margin-top: 20px;
+}
+.eight .blog .img .info h3 i{
+    color: rgb(210,154,97);
+}
+.eight .blog .img .info h2{
+    color:rgb(5,44,67);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.eight .blog .img .info h4{
+    color:gray;
+    text-align: center;
+}
+.eight .blog .img .img2{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/image_2.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.eight .blog .img .img2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.eight .blog .img .img3{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/image_3.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.eight .blog .img .img3:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.eight .blog .img .img4{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/image_4.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.eight .blog .img .img4:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* footer */
+footer{
+    height: 60vh;
+    width: 100%;
+    border: 1px solid transparent;
+    background-color:  rgb(212,234,245) ;
+    display: flex;
+    justify-content: center;
+}
+footer .info{
+    height: 100%;
+    width: 25%;
+    border: 1px solid transparent;
+}
+footer h1{
+    color: rgb(5,44,67);
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+footer .info p{
+    padding-inline: 30px;
+    margin-top: 100px;
+}
+footer .info i{
+    color: rgb(5,44,67);
+    font-size: 30px;
+    padding-inline: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    cursor:pointer ;
+}
+footer a{
+    opacity:0.7 ;
+    color: rgb(5,44,67);
+    text-align: center;
+    font-size: 30px;
+    padding-inline: 50px;
+    text-decoration: none;
+    margin-top: 150px;
+}
+footer a i{
+    color: rgb(42, 195, 255);
+    margin-top: 50px;
+    font-size: 20px;
+}
+footer a:hover{
+    color: rgb(0, 0, 1);
+}
+footer .imgs {
+    height: 100px ;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
+footer .imgs img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+footer .info .hyper{
+    color: black;
+    font-size: 20px;
+    padding-inline: 20px;
+}
+footer .info h3{
+    color: rgb(101,122,164);
+}
+
+/* footer-2 */
+.ftwo{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(200, 233, 250);
+}
+.ftwo h1{
+    color: rgb(5,44,67);
+    text-decoration: none;
+    font-size: 20px;
+}
+.ftwo h1 u{
+    color: rgb(101,122,164);
+}

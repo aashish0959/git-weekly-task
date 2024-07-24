@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.s1 {
+    /* border: 10px solid; */
+}
+#a11{
+    background: rgba(0, 0,0, 0.5) url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 90vh; */
+    /* border: 11px solid; */
+}
+.box1{
+    /* border: 1px solid; */
+    height: 80vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.a1
+{
+    width: 50%;
+    /* border: 1px solid; */
+    color: rgb(0, 0, 0);
+}
+.box2{
+    height: 40vh;
+}
+
+.col{
+    /* border: 1px solid; */
+}
+.a2
+{
+    /* height: 20vh; */
+    /* width: 20vh; */
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a3
+{
+    /* height: 20vh; */
+    /* width: 20vh; */
+    /* border: 1px solid; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.a111{
+    /* height: 15vh; */
+    width: 200px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a111 i{
+    font-size: 80px;
+    color: #0D6EFD;
+    
+}
+.box3{
+    height: 80vh;
+    
+    /* border: 1px solid; */
+}
+.box3{
+    background: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box5{
+    height: 80vh;
+    background: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-2.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box6{
+    height: 80vh;
+    background: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-3.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box4{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+
+}
+.a{
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid; */
+}
+.s2{
+    /* height: 500px; */
+    background-color: #F8F9FA;
+    
+}
+
+.box7{
+    /* height: 30vh; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* border: 1px solid; */
+   
+}
+
+
+.box8{
+    /* border: 2px solid red; */
+
+    /* height: 80vh; */
+}
+.b1{
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    background: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.b2{
+    
+    /* border: 1px solid; */
+   
+   margin-top: 5vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.b3{
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    background: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.b4{
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    background: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/testimonials-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.s3{
+    /* height: 60vh; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+
+}
+.c1{
+    /* border: 1px solid; */
+    /* height: 10vh; */
+    padding-top: 10vh;
+    text-align: center;
+    color: white;
+}
+.c2{
+    width: 40%;
+    margin-left: 30%;
+    padding-bottom: 50px;
+}
+.k6{
+    /* background-color: antiquewhite; */
+}

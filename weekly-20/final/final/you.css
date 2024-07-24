@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.s1{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid;
+    position: fixed;
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.box1{
+    height: 100%;
+    width: 15%;
+    border: 2px solid;
+    display: flex;
+    /* justify-content: spa; */
+    align-items: center;
+
+}
+.box1 .a1{
+    height: 100%;
+    width: 30%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50;
+   
+}
+#icon1{
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 50%;
+    
+}
+#icon1:hover{
+    background-color: #272727;
+    color: #C3C3C3;
+}
+.box1 i{
+    font-size: 30px;
+}
+
+.a2{
+    height: 50%;
+    width:50%;
+    /* border: 1px solid; */
+    background-image: url(img/logo.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.a2 img{
+    height: 100%;
+    width: 80%;
+}
+
+.box2{
+    height: 100%;
+    width: 60%;
+    border: 2px solid;
+
+}
+.box3{
+    height: 100%;
+    width: 20%;
+    border: 2px solid;
+
+}
+
+
+.mine1{
+    height: 90%;
+    width: 100%;
+    border: 3px solid red;
+    display: flex;
+}
+.s2{
+    height: 100%;
+    width: 4%;
+    border: 1px solid;  
+    background-color: brown;
+    position: sticky;
+    left: 0;
+    top: 10%;   
+}
+.s3{
+    height: 100%;
+    width: 14%;
+    border: 1px solid;
+    background-color: blue;
+     
+}
+
+
+.s4{
+    height: 100%;
+    width: 95%;
+    border: 3px solid yellow;
+    overflow: scroll;
+    /* background-color: yellow; */
+}
+.c1{
+    position: fixed;
+    /* width: 5%; */
+  
+    /* transition: 1s ease; */
+}
+
+.c2{
+    margin-left: -10%;
+    transition: 1s ease;
+    visibility: hidden;
+   }
+.c3{
+       width:auto;
+       border: 1px solid;
+      
+       /* margin-left: -10%; */
+       /* transition: 1s ease; */
+   }
+   
+   .box5{
+    height: 500px;
+    width: 400px;
+    border: 3px solid;
+   }
+   .a3{
+    height: 30px;
+    width: 70%;
+    border: 1px solid;
+   }

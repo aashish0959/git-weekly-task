@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* .container-fluid{
+    border: 1px solid black;
+}
+.container{
+    border: 2px solid green;
+}
+.row{
+    border: 3px solid red;
+}
+.col{
+    border: 3px solid brown;
+} */
+.carousel-item{
+    height: 100%;
+    width: 100%;
+}
+.carousel-caption{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 40%;
+    /* height: 100px; */
+}

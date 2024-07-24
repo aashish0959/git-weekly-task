@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="addmin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css" integrity="sha512-ZH3KB6wI5ADHaLaez5ynrzxR6lAswuNfhlXdcdhxsvOUghvf02zU1dAsOC6JrBTWbkE1WNDNs5Dcfz493fDMhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js'></script>
+</head>
+<body>
+       
+    <div class="si1">
+        <div class="a1">
+            <img style="margin-left: 20px;line-height: 70px;" src="https://elstar.themenate.net/img/logo/logo-light-full.png" alt="">
+        </div>
+        <div class="a2"><br>
+            <h5 style="margin-left: 10%;">APPS</h5><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i style="border: 2px solid;padding: 3px;" class="fa-solid fa-signal"></i>
+                   
+                </div>
+                <h3>Project</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="ri-group-fill"></i>
+                   
+                </div>
+                <h3>CRM</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="ri-funds-box-line"></i>
+                   
+                </div>
+                <h3>Sales</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="ri-money-rupee-circle-line"></i>
+                   
+                </div>
+                <h3>Crypto</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+            
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-book-open"></i>
+                   
+                </div>
+                <h3>Knowledge Base</h3>
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-regular fa-circle-user"></i>
+                   
+                </div>
+                <h3>Account</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <h5 style="margin-left: 10%;">UI COMPONENTS</h5><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-brands fa-stack-overflow"></i>
+                   
+                </div>
+                <h3>Common</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-message"></i>
+                   
+                </div>
+                <h3>Feedback</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+            
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-display"></i>
+                   
+                </div>
+                <h3>Data Display</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-folder"></i>
+                   
+                </div>
+                <h3>Forms</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-regular fa-paper-plane"></i>
+                   
+                </div>
+                <h3>Navigation</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-camera-retro"></i>
+                   
+                </div>
+                <h3>Graph</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <h5 style="margin-left: 10%;">PAGES</h5><br>
+            
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-hand-sparkles"></i>
+                   
+                </div>
+                <h3>Welcome</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-ban"></i>
+                   
+                </div>
+                <h3>Access Denied</h3>&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <h5 style="margin-left: 10%;">AUTHENTICATION</h5><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-shield-halved"></i>
+                   
+                </div>
+                <h3>Sign In</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-user-plus"></i>
+                   
+                </div>
+                <h3>Sign Up</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+            
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-lock"></i>
+                   
+                </div>
+                <h3>Forgot Password</h3>&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-key"></i>
+                   
+                </div>
+                <h3>Reset  Password</h3>&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+
+            <h5 style="margin-left: 10%;">GUIDE</h5><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-file-shield"></i>
+                   
+                </div>
+                <h3>Documentation</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                   
+                </div>
+                <h3>Shered Component</h3>
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+            
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-cloud"></i>
+                   
+                </div>
+                <h3>utilities</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            <div class="b1">
+                <div class="d1">
+                    <i class="fa-solid fa-gear"></i>
+                   
+                </div>
+                <h3>Chengelog</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="icon1" class="ri-arrow-down-s-line"></i>
+            </div><br>
+
+            
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="si2">
+
+        <div class="e1">
+            <img src="https://elstar.themenate.net/img/logo/logo-light-streamline.png" alt="">
+        </div><hr>
+        <div class="e2">
+            <i style="border: 2px solid;padding: 3px;" class="fa-solid fa-signal"></i>
+
+        </div>
+        <div class="e2"><i class="ri-group-fill"></i></div>
+        <div class="e2"><i class="ri-funds-box-line"></i></div>
+        <div class="e2"><i class="ri-money-rupee-circle-line"></i></div>
+        <div class="e2"><i class="fa-solid fa-book-open"></i></div>
+        <div class="e2"><i class="fa-regular fa-circle-user"></i></div>
+        <div class="e2"><i class="fa-brands fa-stack-overflow"></i></div>
+        <div class="e2"><i class="fa-solid fa-message"></i></div>
+        <div class="e2"><i class="fa-solid fa-display"></i></div>
+        <div class="e2"><i class="fa-solid fa-folder"></i></div>
+        <div class="e2"><i class="fa-regular fa-paper-plane"></i></div>
+        <div class="e2"><i class="fa-solid fa-camera-retro"></i></div>
+        <div class="e2"><i class="fa-solid fa-hand-sparkles"></i></div>
+        <div class="e2"><i class="fa-solid fa-ban"></i></div>
+        <div class="e2"><i class="fa-solid fa-shield-halved"></i></div>
+        <div class="e2"><i class="fa-solid fa-user-plus"></i></div>
+        <div class="e2"><i class="fa-solid fa-lock"></i></div>
+        <div class="e2"><i class="fa-solid fa-key"></i></div>
+        <div class="e2"><i class="fa-solid fa-file-shield"></i></div>
+        <div class="e2"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+        <div class="e2"><i class="fa-solid fa-cloud"></i></div>
+        <div class="e2"><i class="fa-solid fa-gear"></i></div>
+        
+
+    </div>
+
+    <nav>
+        
+        <i class="fa-solid fa-bars" id="bar"></i>
+        <i id="icon2" style="font-size: 25px; color: #6b7280; margin-left: 20px;" class="fa-solid fa-magnifying-glass"></i>
+
+        <div class="f1">
+            <div class="f2">
+                <img src="https://elstar.themenate.net/img/countries/us.png" alt="">
+
+            </div>
+            <div class="f3">
+                <i class="ri-notification-2-line"></i>
+                <i class="ri-settings-3-line"></i>
+    
+            </div>
+            <div class="f5">
+                <img src="https://elstar.themenate.net/img/avatars/thumb-1.jpg" alt="">
+                <p>Admin <br>Carolyn Perkins </p>
+                
+            </div>
+            
+        </div>
+        <hr>
+        <div class="box1">
+            <!-- <div class="s2"> -->
+                <div class="nav">
+                   
+                
+                </div>
+                <hr>
+                <div class="b11">
+                  <h1>Sales Overview</h1>
+                  
+                  <p>View your current sales & summary
+        
+                  </p>
+        
+                 <div class="box4">
+                    <input type="text" placeholder="September 27,2023~Dec 27,2023">
+                    <div class="con">
+                        Filter
+                    </div>
+                 </div>
+                </div>
+                
+                <div class="box3">
+                    <div>
+                        <h4>Revenue</h4>
+                        <br>
+                        <h1>$21,827.13</h1>
+                        <p>vs. 3 months prior to <b>20 Jan</b></p>
+                        <button class="btn1"><i class="fa-solid fa-arrow-up" style="color: #0ada07;"></i><b>11.4%</b></button>
+                    </div>
+                    <div>
+                        <h4>Orders</h4>
+                        <br>
+                        <h1>1,758</h1>
+                        <p>vs. 3 months prior to <b>20 Jan</b></p>
+                        <button class="btn1"><i class="fa-solid fa-arrow-up" style="color: #0ada07;"></i><b>11.4%</b></button>
+        
+                    </div>
+                    <div>
+                        <h4>Purchases</h4>
+                        <br>
+                        <h1>$7,249.31</h1>
+                        <p>vs. 3 months prior to <b>20 Jan</b></p>
+                        <button class="btn1"><i class="fa-solid fa-arrow-up" style="color: #0ada07;"></i><b>11.4%</b></button>
+        
+                    </div>
+                </div>
+                <div class="s12">
+
+                    <div class="z1">
+                        <div id='calendar'></div>
+                    </div>
+                    <div id="chart">
+                        
+                    </div>
+                    <div class="z1">
+                        <div class="z2">
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+        
+        
+                
+                <div class="main2">
+                <div class="table" >
+                        <h1>Latest Orders</h1>
+                        <button>View Orders</button>
+                    <table class="tb1" cellspacing="0">
+                        <tr>
+                            <th>ORDER</th>
+                            <th>STATUS</th>
+                            <th>DATE</th>
+                            <th>CUSTOMER</th>
+                            <th>PROFILE PROGRESS</th>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;">#95954</td>
+                            <td style="color: #50be83;font-weight: bold;">paid</td>
+                            <td>10/08/2022</td>
+                            <td>Ron Vargas</td>
+                            <td>$168.00</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;">#95423</td>
+                            <td style="color: #50be83;font-weight: bold;">paid</td>
+                            <td>30/07/2022</td>
+                            <td>Carolyn Hanso</td>
+                            <td>$523.00</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;">#92903</td>
+                            <td style="color: #f6a10b ;font-weight: bold;font-weight: bold;">pending</td>
+                            <td>18/07/2022</td>
+                            <td>Gabriella May</td>
+                            <td>$81.00</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;">#92627</td>
+                            <td style="color: #f06761;font-weight: bold;font-weight: bold;">Failed</td>
+                            <td>09/07/2022</td>
+                            <td>Tara Fletcher</td>
+                            <td>$279.00</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;">#89332</td>
+                            <td style="color: #50be83;font-weight: bold;">paid</td>
+                            <td>02/06/2022</td>
+                            <td>Eileen Horton</td>
+                            <td>$597.00</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;">#86497</td>
+                            <td style="color: #f06761;font-weight: bold;">Failed</td>
+                            <td>13/03/2022</td>
+                            <td>Lloyd Obrien</td>
+                            <td>$189.00</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;">#86212</td>
+                            <td style="color: #50be83;font-weight: bold;">paid</td>
+                            <td>09/083/2022</td>
+                            <td>Lloyd Obrien</td>
+                            <td>$672.00</td>
+                        </tr>
+                    </table>
+        
+        
+                </div>
+        
+        
+                <div class="table2">
+                    <h1>Top Selling</h1>
+                    <button>View Products</button>
+                <table class="tb" cellspacing="0">
+                    <tr>
+                        <th>PRODUCT</th>
+                        <th>SOLD</th>
+                    
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;"><img src="https://elstar.themenate.net/img/products/product-1.jpg" alt=""><b>Luminaire Giotto Headphones</b></td>
+                        <td style="font-weight: bold;">252</td>
+                        
+                     
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;"><img src="https://elstar.themenate.net/img/products/product-3.jpg" alt="">Black Sneaker</td>
+                        <td style="font-weight: bold;">186</td>
+                       
+                    
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;"><img src="https://elstar.themenate.net/img/products/product-4.jpg" alt="">Gray Hoodies</td>
+                        <td style="font-weight: bold;font-weight: bold;">166</td>
+                        
+                      
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;"><img src="https://elstar.themenate.net/img/products/product-5.jpg" alt="">Blue Backpack</td>
+                        <td style="font-weight: bold;font-weight: bold;">93</td>
+                        
+                       
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;"><img src="https://elstar.themenate.net/img/products/product-7.jpg" alt="">Strip Analog Watch</td>
+                        <td style="font-weight: bold;">81</td>
+                        
+                    
+                    </tr>
+                   
+                </table>
+                </div>
+        
+            </div>
+        
+        
+        
+        
+            <div class="footer">
+                <p style="width: 850px;">Copyright © 2023 Elstar All rights reserved.</p>
+            <p style="width: 300px;text-align: right;">Term & Conditions | Privacy & Policy</p>
+            </div>
+            </div>
+        
+        
+            </div>
+        
+        </div>
+            
+        </div>
+    </nav>
+    
+    
+
+</body>
+</html>
+<script>
+    $(document).ready(function(){
+        $("#bar").click(function(){
+            $(".si1").toggleClass("c1")
+            $(".si2").toggleClass("c3")
+            $("nav").toggleClass("c2")
+            $(".box1").toggleClass("c4")
+
+        })
+
+    })
+</script>
+
+<script>
+    var options = {
+          series: [44, 55, 41, 17, 15],
+          chart: {
+          type: 'donut',
+        },
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            chart: {
+              width: 200,
+              
+            },
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }]
+        };
+
+        var chart = new ApexCharts(document.querySelector(".z2"), options);
+        chart.render();
+      
+        var options = {
+          series: [{
+            name: "Desktops",
+            data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
+        }],
+          chart: {
+          height: 350,
+          type: 'line',
+          zoom: {
+            enabled: false
+          }
+        },
+        dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          curve: 'straight'
+        },
+        title: {
+          text: 'Product Trends by Month',
+          align: 'left'
+        },
+        grid: {
+          row: {
+            colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+            opacity: 0.5
+          },
+        },
+        xaxis: {
+          categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+      
+      
+    
+
+
+    
+</script>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth'
+      });
+      calendar.render();
+    });
+
+  </script>
+
