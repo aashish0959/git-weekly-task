@@ -762,12 +762,18 @@ footer .info{
     height: 100%;
     width: 25%;
     border: 1px solid transparent;
+    border: 1px solid;
 }
 footer h1{
     color: rgb(5,44,67);
-    text-align: center;
-    text-decoration: underline;
+    /* text-align: center; */
+    /* text-decoration: underline; */
     margin-top: 40px;
+    font-size: 30px;
+}
+.i12{
+    font-size: 16px;
+    text-align: start;
 }
 footer .info p{
     padding-inline: 30px;
@@ -776,9 +782,9 @@ footer .info p{
 footer .info i{
     color: rgb(5,44,67);
     font-size: 30px;
-    padding-inline: 30px;
+    /* padding-inline: 30px; */
     margin-top: 50px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     cursor:pointer ;
 }
 footer a{

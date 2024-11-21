@@ -175,10 +175,10 @@ article p{
     background-image: url(https://themes.muffingroup.com/be/landing4/wp-content/uploads/2022/01/landing4-slider-pic5.webp);
 }
 #img1{
-    height: 86vh;
+    height: 87vh;
     width: auto;
-    margin-top: -90px;
-    margin-left: 70px;
+    margin-top: -15px;
+    margin-left: 120px;
 }
 
 #img2{
@@ -187,14 +187,15 @@ article p{
     position: absolute;
 }
 #img3{
-    margin-left: 40px;
-    margin-top: 80px;
+    margin-left: 30px;
+    margin-top: 170px;
     position: absolute;
 }
 #img4{
     margin-left: 600px;
     margin-top: 350px;
     position: absolute;
+        /* border: 1px solid; */
 }
 
 .box2{

@@ -44,6 +44,7 @@ body{
 .logo3{
     height: 70px;
     width: 90%;
+    margin-left: -50px;
     background-color: #FF1313;
     border: 2px solid white;
     font-size: 1.5vw;
