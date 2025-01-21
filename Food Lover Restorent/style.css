@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+}
+section{
+    width: 100%;
+    height: auto;
+    background-color: #16161E;
+}
+.home{
+    width: 100%;
+    height: 740px;
+    /* border: 1px solid red; */
+    background-image: url(Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(6\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.nav1{
+    width: 33.3%;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* margin-right: 10px; */
+    /* border: 1px solid blue; */
+}
+.nav1 .h{
+    color: orange;
+}
+.nav1 h3{
+    color: white;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.nav1 h3:hover{
+    color: orange;
+}
+.nav2{
+    width: 33.3%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+.nav3{
+    width: 33.3%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+.nav3 h3{
+    color: white;
+    cursor: pointer;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+.nav3 h3:hover{
+    color: orange;
+}
+.brack{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.img1{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+.img1 img{
+    width: 85%;
+}
+.img2{
+    width: 50%;
+    height: 600px;
+    /* border: 1px solid blue; */
+}
+.img2 h1{
+    margin-left: 30px;
+    margin-top: 120px;
+    color: orange;
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+.img2 p{
+    font-weight: 300;
+    color: white;
+    font-size: 28px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.img2 button{
+    cursor: pointer;
+    padding: 18px 25px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 35px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: orange;
+}
+.img2 button:hover{
+    transition: .5s;
+    background-color: #363232;
+    color: white;
+}
+.about{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    background-color: #16161E;
+}
+.about .box1{
+    width: 50%;
+    height: 650px;
+    display: flex;
+    justify-content: end;
+    /* border: 1px solid red; */
+}
+.about .box1 .box{
+    width: 75%;
+    height: 80%;
+    margin-top: 90px;
+    background-color: orange;
+}
+.about .box1 .box img{
+    width: 100%;
+}
+.about .box2{
+    width: 50%;
+    height: 650px;
+    /* border: 1px solid red; */
+}
+.about .box2 h1{
+    font-size: 48px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 130px;
+    font-family: serif;
+}
+.about .box2 p{
+    font-weight: 300;
+    font-size: 35px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.dish{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    /* justify-content: end; */
+    /* border: 1px solid red; */
+    background-color: #16161E;
+}
+.dish .di{
+    position: relative;
+    width: 60%;
+    height: 700px;
+    /* border: 1px solid red; */
+}
+.di h1{
+    font-size: 3rem;
+    position: absolute;
+    bottom: 60%;
+    right: 20%;
+    color: white;
+}
+.di div{
+    position: absolute;
+    bottom: 20%;
+    left: 42%;
+    color: white;
+    width: 50%;
+    font-size: 24px;
+}
+.dish .img{
+    width: 40%;
+    height: 700px;
+    display: flex;
+    justify-content: end;
+    /* border: 1px solid red; */
+}
+.dish .img img{
+    height: 700px;
+}
+.food{
+    cursor: pointer;
+    width: 100%;
+    height: 1000;
+    display: flex;
+    /* border: 1px solid red; */
+    background-color: #16161E;
+}
+.food .box1{
+    position: relative;
+    width: 35%;
+    height: 700px;
+    /* border: 1px solid blue; */
+}
+.food .box1 img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* margin-top: 21PX; */
+}
+.food .box2{
+    width: 70%;
+    height: 800px;
+    position: relative;
+    /* border: 1px solid blue; */
+    background-image: url(Shape.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.food .box2 img{
+    width: 65%;
+    position: absolute;
+    left: 20%;
+    /* height: 80%; */
+}
+.fodgallery{
+    position: absolute;
+    bottom: 1%;
+    left: 12.5%;
+    width: 300px;
+    display: flex;
+    align-items: end;
+    height: 70px;
+    /* border: 1px solid red;    */
+}
+.fodgallery h3{
+    font-size: 35px;
+    color: white;
+}
+.cup{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    background-color: #16161E;
+}
+.cup .tr{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+}
+.tr .tre{
+    cursor: pointer;
+    width: 27%;
+    height: 390px;
+    margin-top: 50px;
+    margin-left: 40px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.tre img{
+    width: 100%;
+    transition: 1s;
+}
+.tre img:hover{
+    transform: scale(1.2);
+}
+.enjoy{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(5\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #16161E; */
+}
+.lorem{
+    cursor: pointer;
+    width: 40%;
+    height: 500px;
+    border: 10px solid orange;
+}
+.lorem h1{
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+}
+.lorem p{
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* border: 1px solid red; */
+}
+.menu h2{
+    color: white;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.italiyan{
+    width: 85%;
+    height: 470px;
+    margin-left: 80px;
+    display: flex;
+    margin-top: 50px;
+    /* justify-content: space-around; */
+    /* border: 1px solid red; */
+}
+.source{
+    cursor: pointer;
+    width: 25%;
+    height: 460px;
+    margin-left: 100px;
+     /* border: 1px solid red; */
+}
+.png{
+    width: 100%;
+    height: 290px;
+}
+.source img{
+    width: 100%;
+    /* height: 300px; */
+}
+.source h3{
+    margin-top: 20px;
+    font-size: 23px;
+    color: orange;
+}
+.source p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: white;
+}
+.source h2{
+    margin-top: 11px;
+    font-weight: 400;
+    color: orange;
+}
+.joy{
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+    height: 450px;
+    margin-top: 150px;
+    background-color: orange;
+    /* border: 1px solid red; */
+}
+.joy img{
+    width: 37%;
+    margin-top: -60px;
+    /* height: 600px; */
+}
+.joy h1{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    right: 36%;
+    top: 20%;
+}
+.joy p{
+    color: white;
+    font-size: 1.8rem;
+    position: absolute;
+    right: 30%;
+    top: 37%;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+    background-color: #313238;
+}
+.foot1{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23%;
+    /* border: 1px solid red; */
+}
+.foot2{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 19%;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+.foot2 h3{
+    cursor:  pointer;
+    margin-right: 50px;
+}
+.foot2 h3:hover{
+    color: orange;
+}
+.foot3{
+    width: 50%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    margin-left: 23%;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+.foot3 img{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}

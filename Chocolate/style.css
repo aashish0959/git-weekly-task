@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav-1{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(81,70,51);
+    padding: 0px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-1 .a a{
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+.nav-1 .b h4{
+    color: white;
+    font-weight: 100;
+}
+.nav-1 .c select{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+.nav-2{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 110px;
+}
+.nav-2 .x{
+    display: flex;
+    cursor: pointer;
+}
+.nav-2 .x img{
+    width: 30px;
+    height: 30px;
+}
+.nav-2 .x input{
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    color: rgb(81,70,51);
+}
+.nav-2 .y{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-2 .y select{
+    border: none;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.nav-2 .y select:hover{
+    color: rgb(81,70,51);
+}
+.nav-2 .y a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin: 0px 10px;
+}
+.nav-2 .y a:hover{
+    color: rgb(81,70,51);
+}
+.nav-2 .z{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.nav-2 .z img{
+    width: 25px;
+    height: 25px;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+section{
+    padding: 0px 75px 0px;
+}
+.main{
+    width: 100%;
+    height: 630px;
+    background: url(./img/bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h2{
+    font-family: "Dancing Script", cursive;
+    font-size: 55px;
+    color: white;
+}
+.main h1{
+    font-family: "Lora", serif;
+    color: white;
+    font-size: 60px;
+    margin: 18px 0px 90px;
+}
+.main button{
+    padding: 12px 30px;
+    font-size: 11px;
+    color: rgb(81,70,51);
+    border: none;
+    cursor: pointer;
+}
+.main button:hover{
+    background-color: rgb(162,87,66);
+    color: white;
+}
+.F{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 80px 0px 50px;
+    margin: 40px 0px 0px;
+    color: rgb(81,70,51);
+}
+.F h6{
+    letter-spacing: 2px;
+    margin: 0px 0px 8px;
+}
+.F h1{
+    font-size: 40px;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+.line-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 100px;
+}
+.box{
+    width: 23%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+}
+.box img{
+    width: 100%;
+    cursor: pointer;
+}
+.box h6{
+    color: rgb(191,99,77);
+}
+.box h3{
+    font-family: serif;
+    font-weight: 500;
+    margin: 12px 0px 19px;
+    cursor: pointer;
+}
+.box h3:hover{
+    color: rgb(191,99,77);
+}
+.box h4{
+    font-weight: 400;
+    color: rgb(191,99,77);
+    margin: 0px 0px 20px;
+}
+.bg{
+    width: 100%;
+    height: 600px;
+    margin: 100px 0px 50px;
+    background-image: url(./img/xh-44.jpg);
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.bg .T{
+    margin: 0px 100px;
+    padding: 0px 100px;
+}
+.bg h1{
+    font-size: 50px;
+    font-family: serif;
+    font-weight: 400;
+    color: rgb(81,70,51);
+}
+.bg h2{
+    color: rgb(81,70,51);
+    font-weight: 400;
+    font-size: 20px;
+    font-family: serif;
+    font-style: italic;
+    margin: 25px 0px;
+}
+.bg button{
+    padding: 12px 30px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(81,70,51);
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.bg button:hover{
+    background-color: rgb(162,87,66);
+    color: white;
+}
+.line-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box-1{
+    width: 15%;
+    color: rgb(81,70,51);
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.box-1 img{
+    width: 100%;
+}
+.box-1 h2{
+    font-weight: 400;
+    font-family: serif;
+    font-size: 25px;
+    margin: 15px 0px 8px;
+}
+.box-1 h5{
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0px 0px 15px;
+}
+.video{
+    width: 100%;
+    margin: 90px 0px;
+    padding: 0px 100px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.L{
+    width: 47%;
+}
+#K{
+    background-image: url(./img/xh-52.jpg);
+    background-position: center;
+    text-align: center;
+    color: rgb(81,70,51);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.K{
+    margin: 0px 0px 100px;
+}
+.K h1{
+    font-family: serif;
+    font-size: 34px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.K button{
+    padding: 12px 30px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(81,70,51);
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin: 30px 0px 0px;
+}
+.K button:hover{
+    background-color: rgb(162,87,66);
+    color: white;
+}
+.B{
+    width: 100%;
+    margin: 0px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.B img{
+    width: 19%;
+    height: 350px;
+}
+.C{
+    width: 100%;
+}
+.C h1{
+    font-family: serif;
+    color: rgb(81,70,51);
+    font-size: 30px;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 0px;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.D{
+    width: 100%;
+    display: flex;
+    margin: 50px 0px;
+}
+.I{
+    width: 50%;
+}
+.I img{
+    width: 100%;
+}
+.II{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 30px;
+}
+.II p{
+    font-style: italic;
+    font-family: serif;
+    color: rgb(162,87,66);
+}
+.J{
+    width: 100%;
+    height: 510px;
+    background-image: url(./img/bg.2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+}
+.text{
+    width: 50%;
+    padding: 0px 100px;
+}
+.text h1{    
+    font-family: "Dancing Script", cursive;
+    font-size: 95px;
+    color: antiquewhite;
+}
+.text h2{
+    font-family: serif;
+    font-style: italic;
+    color: antiquewhite;
+    font-weight: 100;
+    margin: 20px 0px;
+}
+.footer{
+    width: 100%;
+    height: 550px;
+    margin: 60px 0px 0px;
+    padding: 80px ;
+    display: flex;
+    background-color: antiquewhite;
+}
+.footer .first{
+    width: 50%;
+}
+.footer .first h1{
+    font-family: "Dancing Script", cursive;
+    color: rgb(162,87,66);
+    font-size: 50px;
+}
+.footer .first h6{
+    margin: 10px 0px;
+    font-weight: 200;
+}
+.footer .first label{
+    font-size: 14px;
+}
+.footer .first input{
+    width: 70%;
+    height: 30px;
+    border: none;
+    background-color:rgb(162,87,66);
+}
+.footer .first button{
+    padding: 5px 15px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.footer .first button:hover{
+    background-color: rgb(162,87,66);
+    color: white;
+    border: 1px solid rgb(162,87,66);
+}
